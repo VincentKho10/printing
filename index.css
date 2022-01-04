@@ -1,0 +1,88 @@
+table, h2{
+    position: relative;
+    text-align: center;
+    align-content: center;
+    width: fit-content;
+}
+
+tr, td, th{
+    border: 1px solid black;
+    width: auto;
+}
+
+body,html{
+    height: auto;
+    width: auto;
+}
+
+table{
+    height: 75%;
+    width: 100%;
+}
+
+div.details{
+    height: 10%;
+    width: 60%;
+}
+
+.layout{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 2px;
+}
+
+div.layout{
+    width: auto;
+    align-content: center;
+}
+
+.desc{
+    float: left;
+    align-content: right;
+    width: 37%;
+    position: relative;
+}
+
+.desc.right{
+    float: right;
+    overflow: hidden;
+    padding-left: 5%;
+}
+
+.desc.left{
+    float: left;
+    overflow: hidden;
+    padding-left: 1%;
+}
+
+.rodesc{
+    height: 10%;
+    size: 15px;
+}
+
+.titikdua{
+    width: 3%;
+    float: left;
+    text-align: center;
+}
+
+div.nama{
+    width: 100px;
+    float: left;
+    text-align: start;
+}
+
+div,td{
+    font-size: 12pt;
+}
+
+div.info{
+    width: fit-content;
+    float: left;
+    display: block;
+    width: 230px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
